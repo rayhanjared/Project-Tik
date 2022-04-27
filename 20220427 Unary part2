@@ -1,0 +1,30 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(){
+float a= sqrt(15);//menghitung akar kuadrat
+float b= cbrt(27);//akar kubik
+float c= pow(4.334,2.231);//menghitung pangkat
+float d= sin(30);//menghitung sinus
+float e= cos (30);//menghitung cosinus
+float f= tan(30);//menghitung tangen
+
+cout<<a<<endl;
+cout<<b<<endl;
+cout<<c<<endl;
+cout<<d<<endl;
+cout<<e<<endl;
+cout<<f<<endl;
+
+float g = round (3.12);
+}
