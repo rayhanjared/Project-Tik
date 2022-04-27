@@ -1,0 +1,35 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main(){
+//operator unary
+int a=10;
+a = a++; //post-increment,menambahkan 1 nilai kedalam var
+//var a akan ditampilkan baru akan ditampilkan baru ditambahkan kemudian
+int b=10;
+b =++b;//pre-increment,menambahkan 1 nilai kedalam var
+//var b 1+10 langsung ditampilkan
+
+//decrement
+int c= 10;
+c =c--;//post-decrement
+
+
+int d=10;
+d =--d;//pre-decrement
+
+
+cout<<a<<endl;
+cout<<b<<endl;
+cout<<c<<endl;
+cout<<d<<endl;
+    return 0;
+}
